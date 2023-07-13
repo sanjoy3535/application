@@ -1,0 +1,45 @@
+ <html>
+    <head>
+        <title>
+            this my javascript program
+        </title>
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="refresh" content="30;url=https://www.instagram.com">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <style type="text/css">
+body{color:blue;display:flex;justify-content:center;align-items:center}
+p{
+text-align:center;position:absolute;
+    background-size:400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-image:linear-gradient(90deg,red,blue,yellow);
+    animation:animate 3s linear infinite}
+    @keyframes animate{
+        0%{
+        background-position:0px;
+        }
+        100%{
+            background-position:400%;
+        }
+    }</style>
+    </head>
+    <body>
+        <p id="storeDatat"onclick="clickToBtn()">click here</p>
+        <script type="text/javascript">
+            let sanjoy=prompt("Ente your Your Name");
+            document.getElementById("storeDatat").innerHTML=sanjoy;
+            storeDatat.style.backgroundColor="red";
+          storeDatat.style.textAlign="center";
+            storeDatat.style.color="white";
+          document.body.style.backgroundColor="gray";
+          function clickToBtn(){
+alert('Hello '+sanjoy);            
+window.open("https://www.google.com");
+document.write("Thank you Brother");
+          }
+
+            </script>
+    </body>
+</html>
